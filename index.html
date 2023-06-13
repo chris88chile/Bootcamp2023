@@ -2,28 +2,46 @@
 <html>
 <head>
     <title>Control de carros</title>
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-xxx" crossorigin="anonymous" />
+
+    <link rel="stylesheet" type="text/css" href="/assets/style.css">
 </head>
 <body>
-    <div class="button-container">
-        <button onclick="location.href='solicitud_profesor.php';">Solicitud del Profesor</button>
-        <button onclick="location.href='control_operarios.php';">Control de Operarios</button>
+    <div class="top-bar">
+
+        <div class="logo-container">
+            <img src="assets/cetecom.png" alt="Logo">
+        </div>
+        
+        <h1 class="bar-title">Control de carros</h1> 
+
+        
+        <div class="d-flex align-items-center">
+            <button class="btn btn-primary" onclick="location.href='operario_login.html';">
+                <i class="fas fa-cogs"></i> Log in 
+            </button>
+            
+        </div>
     </div>
-    
-    <h1>Control de carros</h1>
-    
-    <h2>Calendario</h2>
-    <table class="calendar">
-        <tr>
-            <th>Hora</th>
-            <th>Lunes</th>
-            <th>Martes</th>
-            <th>Miércoles</th>
-            <th>Jueves</th>
-            <th>Viernes</th>
-            <th>Sábado</th>
-        </tr>
-        <!-- Aquí van las filas generadas dinámicamente -->
-    </table>
+
+    <div class="content">
+        <h2>Calendario</h2>
+        <table class="calendar">
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Sábado</th>
+            </tr>
+            <!-- Aquí van las filas generadas dinámicamente -->
+        </table>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
