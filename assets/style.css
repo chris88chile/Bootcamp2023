@@ -1,0 +1,15 @@
+#formProfessor{
+    border: 3px solid black;
+    width: 30%;
+    margin: 0 auto;
+}
+label{
+  padding-left:10px;
+}
+#professorInput[type=text], input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    padding-left:10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
