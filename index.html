@@ -1,11 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Control de carros</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    <div class="button-container">
+        <button onclick="location.href='solicitud_profesor.php';">Solicitud del Profesor</button>
+        <button onclick="location.href='control_operarios.php';">Control de Operarios</button>
+    </div>
     
+    <h1>Control de carros</h1>
+    
+    <h2>Calendario</h2>
+    <table class="calendar">
+        <tr>
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+            <th>Sábado</th>
+        </tr>
+        <!-- Aquí van las filas generadas dinámicamente en PHP -->
+    </table>
 </body>
 </html>
