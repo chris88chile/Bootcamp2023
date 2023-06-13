@@ -23,9 +23,9 @@ if (isset($_POST['save'])){
 
 ?>
 
-<?php 
+<!-- formulario de operario -->
 
-include("db.php");
+<?php 
 
 if (isset($_POST['save'])){
     $rut = $_POST['rut'];
@@ -47,3 +47,6 @@ if (isset($_POST['save'])){
 }
 
 ?>
+
+<!-- formulario de carro -->
+
